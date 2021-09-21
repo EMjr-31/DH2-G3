@@ -78,5 +78,12 @@ namespace DH2_G3
         {
 
         }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            Reporte report = new Reporte();
+            report.reporteAlum = Alumno;
+            report.Show();
+        }
     }
 }

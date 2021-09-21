@@ -83,7 +83,7 @@
             this.groupBox2.Controls.Add(this.dgvAlumnos);
             this.groupBox2.Location = new System.Drawing.Point(23, 147);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(727, 291);
+            this.groupBox2.Size = new System.Drawing.Size(727, 300);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Listado de Alumnos";
@@ -203,7 +203,7 @@
             // dgvAlumnos
             // 
             this.dgvAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAlumnos.Location = new System.Drawing.Point(91, 19);
+            this.dgvAlumnos.Location = new System.Drawing.Point(133, 19);
             this.dgvAlumnos.Name = "dgvAlumnos";
             this.dgvAlumnos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvAlumnos.Size = new System.Drawing.Size(461, 266);
@@ -238,6 +238,7 @@
             this.btnReporte.TabIndex = 3;
             this.btnReporte.Text = "Reporte";
             this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // Ingreso
             // 
