@@ -73,5 +73,10 @@ namespace DH2_G3
             actualizargrip();
             limpiar();
         }
+
+        private void brnSalir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

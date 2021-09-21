@@ -38,6 +38,5 @@ namespace DH2_G3
             get { return calificaciones; }
             set { calificaciones = value; }
         }
-        float promedio;
     }
 }

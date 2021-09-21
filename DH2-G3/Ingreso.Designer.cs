@@ -47,6 +47,7 @@
             this.dgvAlumnos = new System.Windows.Forms.DataGridView();
             this.brnSalir = new System.Windows.Forms.Button();
             this.bntGuardar = new System.Windows.Forms.Button();
+            this.btnReporte = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
@@ -78,13 +79,14 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnReporte);
             this.groupBox2.Controls.Add(this.dgvAlumnos);
             this.groupBox2.Location = new System.Drawing.Point(23, 147);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(727, 291);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Alumnos";
+            this.groupBox2.Text = "Listado de Alumnos";
             // 
             // label1
             // 
@@ -214,8 +216,9 @@
             this.brnSalir.Name = "brnSalir";
             this.brnSalir.Size = new System.Drawing.Size(75, 23);
             this.brnSalir.TabIndex = 2;
-            this.brnSalir.Text = "Regresar";
+            this.brnSalir.Text = "Salir ";
             this.brnSalir.UseVisualStyleBackColor = true;
+            this.brnSalir.Click += new System.EventHandler(this.brnSalir_Click);
             // 
             // bntGuardar
             // 
@@ -226,6 +229,15 @@
             this.bntGuardar.Text = "Guardar";
             this.bntGuardar.UseVisualStyleBackColor = true;
             this.bntGuardar.Click += new System.EventHandler(this.bntGuardar_Click);
+            // 
+            // btnReporte
+            // 
+            this.btnReporte.Location = new System.Drawing.Point(635, 251);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(75, 23);
+            this.btnReporte.TabIndex = 3;
+            this.btnReporte.Text = "Reporte";
+            this.btnReporte.UseVisualStyleBackColor = true;
             // 
             // Ingreso
             // 
@@ -266,5 +278,6 @@
         private System.Windows.Forms.DataGridView dgvAlumnos;
         private System.Windows.Forms.Button brnSalir;
         private System.Windows.Forms.Button bntGuardar;
+        private System.Windows.Forms.Button btnReporte;
     }
 }
